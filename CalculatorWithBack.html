@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator With Background Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1 -->
+    <h2 class="text"><b>CHANGE BACKGROUND COLOR</b></h2>
+    <div class="buttonSt">
+        <button type="button" onclick="ButGenBackground('white');"><b>Change background color to white</b></button>
+        <button type="button" onclick="ButGenBackground('yellow');"><b>Change background color to yellow</b></button>
+        <button type="button" onclick="ButGenBackground('red');"><b>Change background color to red</b></button>
+        <button type="button" onclick="ButGenBackground('blue');"><b>Change background color to blue</b></button>
+        <button type="button" onclick="ButGenBackground('green');"><b>Change background color to green</b></button>
+    </div>
+    <!-- 2 -->
+    <h2 class="text"><b>CALCULATOR</b></h2>
+    <form id="calc">
+        <input type="number" id="num1" name="num1"><br>
+            <select id = "operation">
+                <option value = "+">+</option>
+                <option value = "-">-</option>
+                <option value = "x">x</option>
+                <option value = "/">/</option>
+                <option value = "%">%</option>
+            </select><br>
+        <input type="number" id="num2" name="num2"><br>
+        <input type="submit" id="calculate" name="calculate" value="=">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
